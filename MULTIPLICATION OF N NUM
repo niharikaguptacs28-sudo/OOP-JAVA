@@ -1,10 +1,11 @@
+import.java.util.*;
 public class multiplication {
     public static void main(String [] args ) {
         
-   java.util.Scanner scanner = new java.util.Scanner(System.in);
+   Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a positive integer n: ");
-        int n = scanner.nextInt();
+        int n = sc.nextInt();
 
         System.out.println("Multiplication table of " + n + ":");
 
