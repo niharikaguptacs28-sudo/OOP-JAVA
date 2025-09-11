@@ -13,7 +13,7 @@ class Account {
 
 public class main {
     public static void main(String[] args) {
-        Account acc = new Account()
+        Account acc = new Account();
         acc.deposit(500);
         acc.withdraw(200);
     }
